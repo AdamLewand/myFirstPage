@@ -1,6 +1,6 @@
 # Adam Lewandowski - Hi, this is my first page ever witch contains some info about me etc.
 
-![currencyCalc](image/Adam.PNG)
+![Adam Lewandowski](image/Adam.PNG)
 
 ## DEMO
 
