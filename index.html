@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie nr 2</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Quicksand&display=swap" rel="stylesheet">
+</head>
+
+<body class="content">
+    <header class="header">Adam Lewandowski - rodzic, gejmer, początkujący programista</header>
+    <div class="photo">
+        <img class="photo__center" src="https://i.postimg.cc/hP0BFjWF/Adam.jpg" alt="Adam"><br>
+        <button class="photo__hidePhoto">Ukryj zdjęcie</button>
+        <button class="photo__backgroundChangeButton">Zmień kolor tła</button>
+    </div>
+    <nav class="navigation">
+        <ul class="navigation__item">
+            <li class="navigation__itemList"><a href="#aboutMe">O mnie</a></li>
+            <li class="navigation__itemList"><a href="#education">Wykształcenie</a></li>
+            <li class="navigation__itemList"><a href="#hobby">Zainteresowania</a></li>
+            <li class="navigation__itemList"><a href="#contact">Kontakt</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1 class="title" id="aboutMe">O mnie</h1>
+        <p>
+            Cześć. Z tej strony Adam, witam Ciebie na mojej stronie. W tej części mojej strony zamierzam króciutko
+            przedstawić moją osobę. Mam 34 lata, urodzony i zamieszkały w Toruniu. <em> Ojciec dwójki wspaniałych
+                pociech </em> które wychowuję wspólnie z moją narzeczoną. Aktualnie zajmuję się systemami ERP
+            <strong>(starszy specjalista ds. wdrożeń)</strong> Symfonia i Enova. Aktualnie jestem na etapie szukania
+            alternatywnej ścieżki kariery, stąd też moja obecność wśród użytkowników YOUCODE. Jeśli zastanawiasz się, co
+            to YOUCODE to sprawdź <a target="_blank" href="https://youcode.pl/zostawiam-maila/"> Link do zapisów na
+                szkolenie</a>
+        </p>
+        <h2 class="title" id="education">Wykształcenie</h2>
+        <div class="container">
+            <table class="table">
+                <caption class="table__caption">Moje dotychczasowe wykształcenie</caption>
+                <tr>
+                    <th scope="col" class="table__cell table__cell--header">Uczelnia </th>
+                    <th scope="col" class="table__cell table__cell--header">Kierunek </th>
+                    <th scope="col" class="table__cell table__cell--header">Specjalność</th>
+                    <th scope="col" class="table__cell table__cell--header">Rok</th>
+                </tr>
+                <tr>
+                    <th class="table__cell table__cell--header" scope="row">ZSMEIE</th>
+                    <td class="table__cell">Elektronika</td>
+                    <td class="table__cell">Technik Elektronik</td>
+                    <td class="table__cell">2007</td>
+                </tr>
+                <tr>
+                    <th class="table__cell table__cell--header" scope="row" rowspan="2">WSB</th>
+                    <td class="table__cell">Zarządzanie</td>
+                    <td class="table__cell">Informatyka w Biznesie</td>
+                    <td class="table__cell">2010</td>
+                </tr>
+                <tr>
+                    <td class="table__cell">Zarządzanie</td>
+                    <td class="table__cell">Zarządzanie i fnanse przedsiebiorstw</td>
+                    <td class="table__cell">2012</td>
+                </tr>
+                <tr>
+                    <th class="table__cell table__cell--header" scope="row">SKWP</th>
+                    <td class="table__cell">Kurs podstaw rachunkowości</td>
+                    <td class="table__cell">Księgowy I stopnia</td>
+                    <td class="table__cell">2013</td>
+                </tr>
+            </table>
+        </div>
+        <h2 id="hobby" class="title"> Zainteresowania</h3>
+            <p class="tableHed"> Co robię w czasie wolnym</p>
+            <ul class="list">
+                <li class="list__Item">
+                    Gry komputerowe
+                    <ul class="list">
+                        <li class="list__Item">
+                            <a class="link" target="_blank" href="https://www.youtube.com/watch?v=kS3aPjR2PYg&t=96s"
+                                title="Przykładowy Gameplay z gry">PLAYERUNKNOWN
+                                BATTELGROUND</a>
+                        </li>
+                        <li class="list__Item">
+                            <a target="_blank" href="https://www.youtube.com/watch?v=KnpljMWwy3o"
+                                title="Przykładowy Gameplay z gry">COUNTER-STRIKE</a>
+                        </li>
+                        <li class="list__Item">
+                            <a target="_blank" href="https://www.youtube.com/watch?v=Sw5VdceCrLA"
+                                title="Przykładowy Gameplay z gry">BATTELFIELD V</a>
+                        </li>
+                        <li class="list__Item">
+                            <a target="_blank" href="https://www.youtube.com/watch?v=x94vJB13HL8"
+                                title="Przykładowy Gameplay z gry">AGE OF EMPIRES</a>
+                        </li>
+                    </ul>
+                <li class="list__Item">
+                    Sport
+                    <ul class="list">
+                        <li class="list__Item">Pływanie</li>
+                        <li class="list__Item">Rower</li>
+                        <li class="list__Item">Kalistenika</li>
+                    </ul>
+                </li>
+                <li class="list__Item">
+                    Inne
+                    <ul class="list">
+                        <li class="list__Item">Muzyka</li>
+                        <li class="list__Item">Film</li>
+                        <li class="list__Item">Spotkania ze znajomymi</li>
+                    </ul>
+                </li>
+                <h2 id="contact" class="title"> Kontakt</h4>
+                    <p class="contactData">
+                        Adam Lewandowski <br> email: Testowy@email.pl <br> Tel: 666 666 666
+                    </p>
+                    </li>
+            </ul>
+    </main>
+    <hr>
+    <footer class="footer">
+        <p>Copyright &#xa9; 2022 by Adam Lewandowski</p>
+    </footer>
+</body>
+
+</html>

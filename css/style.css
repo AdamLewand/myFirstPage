@@ -1,0 +1,105 @@
+html {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.content {
+    width: 100%;
+    max-width: 1000px;
+    padding: 10px 20px;
+    margin: 0 auto;
+    line-height: 1.6;
+    font-family: "Lato", sans-serif;
+    background-color: rgb(216, 211, 207);
+}
+.header,
+.title {
+    color: rgb(12, 27, 22);
+    background-color: rgb(163, 146, 140);
+    text-align: center;
+    margin: 10px auto;
+    font-size: 30px;
+}
+
+.navigation {
+    color: blue;
+}
+.navigation__itemList{
+    font-size: 18px;
+    padding: 5px 10px;
+    margin: 5px;
+    text-align: center;
+    box-shadow: 2px 3px 5px #27527c;
+}
+
+.navigation__item{
+    list-style: none;
+    padding-left: 0;
+    justify-content: space-around;
+}
+
+.photo,
+.photo__hidePhoto,
+.photo__backGroundChangeButton {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.secondColor {
+    background-color: #000;
+}
+
+.photo__center {
+    width: 600px;
+}
+
+.hiddenPhoto {
+    display: none;
+    background-color: aqua;
+}
+
+.hiddenBackGround {
+    background-color: rgba(158, 140, 106, 0.692);
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table__caption {
+    font-size: 20px;
+}
+
+.table__cell {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(109, 91, 91);
+}
+
+.table__cell--header {
+    background-color: gray;
+    font-weight: normal;
+}
+
+.list__Item {
+    margin: 10px 0;
+    font-size: large;
+}
+
+.list {
+    padding-left: 40px;
+
+}
+
+.contactData,
+.footer {
+    text-align: center;
+}
+
+.container {
+    overflow-x: auto;
+}
