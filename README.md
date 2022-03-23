@@ -9,3 +9,9 @@ I'm 34 years old. I'm thinking about changing my life by learning something new 
 
 https://adamlewand.github.io/myFirstPage/
 
+#### Used technologies:
+
+- BEM
+- CSS
+- HTML
+- JavaScript
